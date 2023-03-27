@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css';   
+import {Login} from "./Login"   
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1> Hola desde react! Borramos lo que decia y aca desarollamos lo nuestro </h1>
+      <Login />  
+      <h2> Esto es propio de app</h2>
     </div>
   );
 }
+/* aca vemos la pagina el logo, el texo todo
+<Login /> asi se llama a la funcion en react*/
 
 export default App;
